@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DamelazMedia\\FortifyUIPreset\\Bootstrap5\\": "src"
+            "DamelazMedia\\FortifyUIPreset\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DamelazMedia\\FortifyUIPreset\\Bootstrap5\\Tests\\": "tests"
+            "DamelazMedia\\FortifyUIPreset\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DamelazMedia\\FortifyUIPreset\\Bootstrap5\\FortifyUIPresetServiceProvider"
+                "DamelazMedia\\FortifyUIPreset\\FortifyUIPresetServiceProvider"
             ]
         }
     },
