@@ -1,9 +1,9 @@
 <?php
 
-namespace YourNamespace\FortifyUIPreset;
+namespace DamelazMedia\\FortifyUIPreset;
 
 use Illuminate\Support\ServiceProvider;
-use YourNamespace\FortifyUIPreset\Commands\FortifyUIPresetCommand;
+use DamelazMedia\\FortifyUIPreset\Commands\FortifyUIPresetCommand;
 
 class FortifyUIPresetServiceProvider extends ServiceProvider
 {
