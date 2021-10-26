@@ -1,20 +1,20 @@
 <?php
 
-namespace YourNamespace\FortifyUIPreset\Commands;
+namespace DamelazMedia\FortifyUIPreset\Commands;
 
 use Illuminate\Console\Command;
 
 class FortifyUIPresetCommand extends Command
 {
-    public $signature = 'fortify:yourpreset';
+    public $signature = 'fortify:bootstrap5';
 
-    public $description = 'Install YourPreset with views and resources';
+    public $description = 'Install Bootstrap5 with views and resources';
 
     public function handle()
     {
         $this->publishAssets();
 
-        $this->comment('YourPreset is now installed.');
+        $this->comment('Bootstrap5 is now installed.');
     }
 
     protected function publishAssets()
